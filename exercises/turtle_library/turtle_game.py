@@ -9,14 +9,14 @@ turtle_two = turtle.Turtle()
 
 # turtles shape and color
 turtle_one.hideturtle()
-turtle_one.speed(10)
+turtle_one.speed(5)
 turtle_one.shape("turtle")
 turtle_one.color("orange", "orange")
 turtle_one.shapesize(2, 2, 2)
 turtle_one.pensize(3)
 
 turtle_two.hideturtle()
-turtle_two.speed(10)
+turtle_two.speed(5)
 turtle_two.shape("turtle")
 turtle_two.color("purple", "purple")
 turtle_two.shapesize(2, 2, 2)
