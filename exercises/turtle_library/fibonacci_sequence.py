@@ -13,7 +13,7 @@ def draw_spiral():
     # draw the Fibonacci spiral
     t = turtle.Turtle()
     t.shape("classic")
-    t.pensize(10)
+    t.pensize(5)
 
     # size of the spiral from (6, 13)
     for x in range(6, 13):
@@ -37,7 +37,7 @@ def fibonacci(n):
             fib = fib1 + fib2
             fib1 = fib2
             fib2 = fib
-
+            
         return fib
 
 
