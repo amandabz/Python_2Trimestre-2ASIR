@@ -57,12 +57,12 @@ for i in range(20):
 
     else:
         # turtle_one
-        turtle_one_turn = random.choice(dado)
+        turtle_one_turn = random.choice(die)
         turtle_one.pendown()
         turtle_one.forward(turtle_one_turn * 20)
 
         # turtle_two
-        turtle_two_turn = random.choice(dado)
+        turtle_two_turn = random.choice(die)
         turtle_two.pendown()
         turtle_two.forward(turtle_two_turn * 20)
 
