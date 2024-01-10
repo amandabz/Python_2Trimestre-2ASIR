@@ -43,7 +43,7 @@ turtle_two.goto(-250, -170)
 turtle_two.showturtle()
 
 
-dado = [1, 2, 3, 4, 5, 6]
+die = [1, 2, 3, 4, 5, 6]
 
 # turtles movement
 for i in range(20):
@@ -66,5 +66,5 @@ for i in range(20):
         turtle_two.pendown()
         turtle_two.forward(turtle_two_turn * 20)
 
-
+# keep the window open
 turtle.done()
